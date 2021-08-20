@@ -3,11 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.header_logo {
+  cursor: pointer;
+}
 .banner {
   background-image: url("assets/desktop/image-header.jpg");
   height: 100vh;
   background-position: center bottom;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 .header {
   display: flex;
@@ -38,4 +43,19 @@
 .header_contact:hover {
   background-color: black;
   color: white;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  flex-grow: 1;
+  color: white;
+  font-weight: bold;
+}
+.main_text {
+}
+.main_arrow {
+  margin-top: 60px;
 }
