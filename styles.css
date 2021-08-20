@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  background-image: url("assets/desktop/image-header.jpg");
+  height: 100vh;
+  background-position: center bottom;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+.header_right {
+  display: flex;
+  font-size: 18px;
+  color: white;
+  align-items: center;
+}
+.header_right span {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.header_contact {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 4px 15px;
+  border-radius: 50px;
+  transition: 0.22s all ease-in-out;
+}
+.header_contact:hover {
+  background-color: black;
+  color: white;
+}
