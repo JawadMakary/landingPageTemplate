@@ -8,7 +8,8 @@
 }
 .banner {
   background-image: url("assets/desktop/image-header.jpg");
-  height: 100vh;
+  height: 80vh;
+  min-height: 600px;
   background-position: center bottom;
   background-size: cover;
   display: flex;
@@ -54,8 +55,49 @@
   color: white;
   font-weight: bold;
 }
-.main_text {
-}
+
 .main_arrow {
   margin-top: 60px;
+}
+.first_section {
+  display: flex;
+  height: 350px;
+}
+.section_left {
+}
+.section_right {
+}
+.section_left,
+.section_right {
+  flex: 1;
+}
+.section_right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.first_section .text_container {
+  width: 70%;
+}
+.first_section .section_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first_section h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.first_section p {
+  color: #848391;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 16px;
+}
+.section_left img {
+  cursor: pointer;
+}
+.section_learn_more {
+  display: flex;
+  align-items: center;
 }
